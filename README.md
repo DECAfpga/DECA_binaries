@@ -2,9 +2,9 @@
 
 Find the .sof and .svf bitstream binaries under their category (arcades, computer, consoles).
 
-Each binary includes the data that was made. 
+Each binary includes in the filename the date when was made. 
 
-In old folder you can find older versions.
+Older versions go into old folder.
 
 
 
@@ -18,7 +18,7 @@ Update with your own PATHs to Quartus and sof filename:
 
 ```sh
 cd path/to/output_files/
-export PATH="/home/jordi/bin/intelFPGA_lite/17.1/quartus/bin:$PATH"
+export PATH="/path/to/quartus/bin:$PATH"
 quartus_pgm --mode=jtag -o "p;patth/to/core.sof"
 
 ```
