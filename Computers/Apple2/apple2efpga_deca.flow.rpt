@@ -1,5 +1,5 @@
 Flow report for apple2efpga_deca
-Sat Dec 11 14:37:58 2021
+Sat Dec 11 22:41:51 2021
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -40,17 +40,17 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Sat Dec 11 14:37:39 2021       ;
+; Flow Status                        ; Successful - Sat Dec 11 22:41:32 2021       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; apple2efpga_deca                            ;
 ; Top-level Entity Name              ; deca_top                                    ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M50DAF484C6GES                            ;
 ; Timing Models                      ; Preliminary                                 ;
-; Total logic elements               ; 8,629 / 49,760 ( 17 % )                     ;
+; Total logic elements               ; 8,652 / 49,760 ( 17 % )                     ;
 ;     Total combinational functions  ; 8,036 / 49,760 ( 16 % )                     ;
-;     Dedicated logic registers      ; 3,536 / 49,760 ( 7 % )                      ;
-; Total registers                    ; 3600                                        ;
+;     Dedicated logic registers      ; 3,541 / 49,760 ( 7 % )                      ;
+; Total registers                    ; 3605                                        ;
 ; Total pins                         ; 135 / 360 ( 38 % )                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 379,904 / 1,677,312 ( 23 % )                ;
@@ -66,7 +66,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 12/11/2021 14:34:17 ;
+; Start date & time ; 12/11/2021 22:38:36 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; apple2efpga_deca    ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 ; Assignment Name                     ; Value                                                               ; Default Value    ; Entity Name ; Section Id ;
 +-------------------------------------+---------------------------------------------------------------------+------------------+-------------+------------+
 ; AUTO_MERGE_PLLS                     ; Off                                                                 ; On               ; --          ; --         ;
-; COMPILER_SIGNATURE_ID               ; 963354559481.163922965728730                                        ; --               ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 190135458541196.163925871615476                                     ; --               ; --          ; --         ;
 ; MISC_FILE                           ; mist_clk.ppf                                                        ; --               ; --          ; --         ;
 ; MISC_FILE                           ; ../DeMiSTify/controller/../EightThirtyTwo/RTL/debug_virtualjtag.cmp ; --               ; --          ; --         ;
 ; MISC_FILE                           ; ../DeMiSTify/controller/../EightThirtyTwo/RTL/debug_fifo_altera.cmp ; --               ; --          ; --         ;
@@ -104,11 +104,11 @@ refer to the applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:01:23     ; 1.0                     ; 1081 MB             ; 00:02:01                           ;
-; Fitter                    ; 00:01:42     ; 1.1                     ; 1479 MB             ; 00:02:20                           ;
-; Assembler                 ; 00:00:08     ; 1.0                     ; 829 MB              ; 00:00:08                           ;
-; TimeQuest Timing Analyzer ; 00:00:18     ; 1.4                     ; 922 MB              ; 00:00:23                           ;
-; Total                     ; 00:03:31     ; --                      ; --                  ; 00:04:52                           ;
+; Analysis & Synthesis      ; 00:01:13     ; 1.0                     ; 1079 MB             ; 00:01:49                           ;
+; Fitter                    ; 00:01:29     ; 1.2                     ; 1479 MB             ; 00:02:02                           ;
+; Assembler                 ; 00:00:06     ; 1.0                     ; 827 MB              ; 00:00:06                           ;
+; TimeQuest Timing Analyzer ; 00:00:18     ; 1.4                     ; 925 MB              ; 00:00:24                           ;
+; Total                     ; 00:03:06     ; --                      ; --                  ; 00:04:21                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
