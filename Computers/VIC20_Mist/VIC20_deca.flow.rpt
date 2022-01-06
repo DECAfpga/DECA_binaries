@@ -1,5 +1,5 @@
 Flow report for VIC20_deca
-Sun Nov 28 19:51:37 2021
+Wed Jan  5 13:22:16 2022
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -40,20 +40,20 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Sun Nov 28 19:51:15 2021       ;
+; Flow Status                        ; Successful - Wed Jan  5 13:21:54 2022       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; VIC20_deca                                  ;
 ; Top-level Entity Name              ; deca_top                                    ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M50DAF484C6GES                            ;
 ; Timing Models                      ; Preliminary                                 ;
-; Total logic elements               ; 10,849 / 49,760 ( 22 % )                    ;
-;     Total combinational functions  ; 10,116 / 49,760 ( 20 % )                    ;
-;     Dedicated logic registers      ; 4,707 / 49,760 ( 9 % )                      ;
-; Total registers                    ; 4773                                        ;
+; Total logic elements               ; 11,160 / 49,760 ( 22 % )                    ;
+;     Total combinational functions  ; 10,388 / 49,760 ( 21 % )                    ;
+;     Dedicated logic registers      ; 4,675 / 49,760 ( 9 % )                      ;
+; Total registers                    ; 4743                                        ;
 ; Total pins                         ; 135 / 360 ( 38 % )                          ;
 ; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 449,680 / 1,677,312 ( 27 % )                ;
+; Total memory bits                  ; 490,640 / 1,677,312 ( 29 % )                ;
 ; Embedded Multiplier 9-bit elements ; 10 / 288 ( 3 % )                            ;
 ; Total PLLs                         ; 2 / 4 ( 50 % )                              ;
 ; UFM blocks                         ; 0 / 1 ( 0 % )                               ;
@@ -66,7 +66,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/28/2021 19:48:05 ;
+; Start date & time ; 01/05/2022 13:18:15 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; VIC20_deca          ;
 +-------------------+---------------------+
@@ -78,8 +78,7 @@ refer to the applicable agreement for further details.
 ; Assignment Name                     ; Value                                                               ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+---------------------------------------------------------------------+---------------+-------------+------------+
 ; AUTO_MERGE_PLLS                     ; Off                                                                 ; On            ; --          ; --         ;
-; COMPILER_SIGNATURE_ID               ; 190135458541196.163812528409332                                     ; --            ; --          ; --         ;
-; MISC_FILE                           ; pll2/pll2.ppf                                                       ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 190135458541196.164138509519999                                     ; --            ; --          ; --         ;
 ; MISC_FILE                           ; pll27_bb.v                                                          ; --            ; --          ; --         ;
 ; MISC_FILE                           ; pll27.ppf                                                           ; --            ; --          ; --         ;
 ; MISC_FILE                           ; pll_vic20_bb.v                                                      ; --            ; --          ; --         ;
@@ -112,11 +111,11 @@ refer to the applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:01:31     ; 1.0                     ; 1129 MB             ; 00:02:10                           ;
-; Fitter                    ; 00:01:24     ; 1.2                     ; 1509 MB             ; 00:01:51                           ;
-; Assembler                 ; 00:00:07     ; 1.0                     ; 838 MB              ; 00:00:07                           ;
-; TimeQuest Timing Analyzer ; 00:00:21     ; 1.4                     ; 944 MB              ; 00:00:28                           ;
-; Total                     ; 00:03:23     ; --                      ; --                  ; 00:04:36                           ;
+; Analysis & Synthesis      ; 00:01:28     ; 1.0                     ; 1136 MB             ; 00:02:01                           ;
+; Fitter                    ; 00:01:57     ; 1.2                     ; 1519 MB             ; 00:02:43                           ;
+; Assembler                 ; 00:00:06     ; 1.0                     ; 839 MB              ; 00:00:07                           ;
+; TimeQuest Timing Analyzer ; 00:00:20     ; 1.4                     ; 947 MB              ; 00:00:28                           ;
+; Total                     ; 00:03:51     ; --                      ; --                  ; 00:05:19                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
