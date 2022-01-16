@@ -1,5 +1,5 @@
 Flow report for BBC_deca
-Sat Jan 15 21:19:55 2022
+Sun Jan 16 18:23:42 2022
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -40,15 +40,15 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Sat Jan 15 21:19:37 2022       ;
+; Flow Status                        ; Successful - Sun Jan 16 18:23:23 2022       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; BBC_deca                                    ;
 ; Top-level Entity Name              ; deca_top                                    ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M50DAF484C6GES                            ;
 ; Timing Models                      ; Preliminary                                 ;
-; Total logic elements               ; 11,362 / 49,760 ( 23 % )                    ;
-;     Total combinational functions  ; 10,488 / 49,760 ( 21 % )                    ;
+; Total logic elements               ; 11,342 / 49,760 ( 23 % )                    ;
+;     Total combinational functions  ; 10,468 / 49,760 ( 21 % )                    ;
 ;     Dedicated logic registers      ; 5,108 / 49,760 ( 10 % )                     ;
 ; Total registers                    ; 5160                                        ;
 ; Total pins                         ; 96 / 360 ( 27 % )                           ;
@@ -66,7 +66,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 01/15/2022 21:16:26 ;
+; Start date & time ; 01/16/2022 18:19:31 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; BBC_deca            ;
 +-------------------+---------------------+
@@ -78,8 +78,7 @@ refer to the applicable agreement for further details.
 ; Assignment Name                     ; Value                                                               ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+---------------------------------------------------------------------+---------------+-------------+------------+
 ; AUTO_MERGE_PLLS                     ; Off                                                                 ; On            ; --          ; --         ;
-; COMPILER_SIGNATURE_ID               ; 963354559481.164227778609293                                        ; --            ; --          ; --         ;
-; MISC_FILE                           ; pll2/pll2.ppf                                                       ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 963354559481.164235357104679                                        ; --            ; --          ; --         ;
 ; MISC_FILE                           ; clockgen.ppf                                                        ; --            ; --          ; --         ;
 ; MISC_FILE                           ; ../DeMiSTify/controller/../EightThirtyTwo/RTL/debug_virtualjtag.cmp ; --            ; --          ; --         ;
 ; MISC_FILE                           ; ../DeMiSTify/controller/../EightThirtyTwo/RTL/debug_fifo_altera.cmp ; --            ; --          ; --         ;
@@ -106,11 +105,11 @@ refer to the applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:01:32     ; 1.0                     ; 1116 MB             ; 00:02:13                           ;
-; Fitter                    ; 00:01:24     ; 1.2                     ; 1512 MB             ; 00:01:56                           ;
-; Assembler                 ; 00:00:07     ; 1.0                     ; 834 MB              ; 00:00:06                           ;
-; TimeQuest Timing Analyzer ; 00:00:17     ; 1.5                     ; 952 MB              ; 00:00:25                           ;
-; Total                     ; 00:03:20     ; --                      ; --                  ; 00:04:40                           ;
+; Analysis & Synthesis      ; 00:01:39     ; 1.0                     ; 1112 MB             ; 00:02:21                           ;
+; Fitter                    ; 00:01:59     ; 1.2                     ; 1510 MB             ; 00:02:47                           ;
+; Assembler                 ; 00:00:06     ; 1.0                     ; 833 MB              ; 00:00:07                           ;
+; TimeQuest Timing Analyzer ; 00:00:18     ; 1.5                     ; 943 MB              ; 00:00:26                           ;
+; Total                     ; 00:04:02     ; --                      ; --                  ; 00:05:41                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
