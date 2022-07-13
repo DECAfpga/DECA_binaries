@@ -1,5 +1,5 @@
 Flow report for nes_deca
-Thu Nov 18 23:50:48 2021
+Wed Jul 13 22:43:27 2022
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -40,17 +40,17 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Thu Nov 18 23:50:17 2021       ;
+; Flow Status                        ; Successful - Wed Jul 13 22:42:54 2022       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; nes_deca                                    ;
 ; Top-level Entity Name              ; deca_top                                    ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M50DAF484C6GES                            ;
 ; Timing Models                      ; Preliminary                                 ;
-; Total logic elements               ; 24,254 / 49,760 ( 49 % )                    ;
-;     Total combinational functions  ; 21,876 / 49,760 ( 44 % )                    ;
-;     Dedicated logic registers      ; 9,995 / 49,760 ( 20 % )                     ;
-; Total registers                    ; 10055                                       ;
+; Total logic elements               ; 24,061 / 49,760 ( 48 % )                    ;
+;     Total combinational functions  ; 21,695 / 49,760 ( 44 % )                    ;
+;     Dedicated logic registers      ; 9,920 / 49,760 ( 20 % )                     ;
+; Total registers                    ; 9985                                        ;
 ; Total pins                         ; 130 / 360 ( 36 % )                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 219,474 / 1,677,312 ( 13 % )                ;
@@ -66,45 +66,46 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/18/2021 23:39:02 ;
+; Start date & time ; 07/13/2022 22:25:48 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; nes_deca            ;
 +-------------------+---------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                                      ;
-+--------------------------------------+---------------------------------------------------------------------+---------------+-------------+------------+
-; Assignment Name                      ; Value                                                               ; Default Value ; Entity Name ; Section Id ;
-+--------------------------------------+---------------------------------------------------------------------+---------------+-------------+------------+
-; AUTO_MERGE_PLLS                      ; Off                                                                 ; On            ; --          ; --         ;
-; COMPILER_SIGNATURE_ID                ; 190135458541196.163727514228878                                     ; --            ; --          ; --         ;
-; CYCLONEII_OPTIMIZATION_TECHNIQUE     ; Speed                                                               ; Balanced      ; --          ; --         ;
-; FITTER_EFFORT                        ; Standard Fit                                                        ; Auto Fit      ; --          ; --         ;
-; MISC_FILE                            ; clk.ppf                                                             ; --            ; --          ; --         ;
-; MISC_FILE                            ; ../DeMiSTify/controller/../EightThirtyTwo/RTL/debug_virtualjtag.cmp ; --            ; --          ; --         ;
-; MISC_FILE                            ; ../DeMiSTify/controller/../EightThirtyTwo/RTL/debug_fifo_altera.cmp ; --            ; --          ; --         ;
-; MUX_RESTRUCTURE                      ; Off                                                                 ; Auto          ; --          ; --         ;
-; NUM_PARALLEL_PROCESSORS              ; All                                                                 ; --            ; --          ; --         ;
-; OPTIMIZATION_MODE                    ; Aggressive Performance                                              ; Balanced      ; --          ; --         ;
-; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                                                   ; --            ; --          ; --         ;
-; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                                                   ; --            ; --          ; --         ;
-; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                                                          ; --            ; --          ; --         ;
-; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                                                          ; --            ; --          ; --         ;
-; PARTITION_COLOR                      ; -- (Not supported for targeted family)                              ; --            ; deca_top    ; Top        ;
-; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family)                              ; --            ; deca_top    ; Top        ;
-; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family)                              ; --            ; deca_top    ; Top        ;
-; PHYSICAL_SYNTHESIS_COMBO_LOGIC       ; On                                                                  ; Off           ; --          ; --         ;
-; PHYSICAL_SYNTHESIS_REGISTER_RETIMING ; On                                                                  ; Off           ; --          ; --         ;
-; PLACEMENT_EFFORT_MULTIPLIER          ; 4.0                                                                 ; 1.0           ; --          ; --         ;
-; PRE_FLOW_SCRIPT_FILE                 ; quartus_sh:../mist/build_id_verilog.tcl                             ; --            ; --          ; --         ;
-; PROJECT_OUTPUT_DIRECTORY             ; output_files                                                        ; --            ; --          ; --         ;
-; ROUTER_TIMING_OPTIMIZATION_LEVEL     ; MAXIMUM                                                             ; Normal        ; --          ; --         ;
-; TOP_LEVEL_ENTITY                     ; deca_top                                                            ; nes_deca      ; --          ; --         ;
-; VERILOG_MACRO                        ; DEMISTIFY_PARALLEL_AUDIO=1                                          ; --            ; --          ; --         ;
-; VERILOG_MACRO                        ; DEMISTIFY_DECA=1                                                    ; --            ; --          ; --         ;
-; VERILOG_MACRO                        ; DEMISTIFY=1                                                         ; --            ; --          ; --         ;
-+--------------------------------------+---------------------------------------------------------------------+---------------+-------------+------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                             ;
++--------------------------------------+----------------------------------------------------------------------------+---------------+-------------+------------+
+; Assignment Name                      ; Value                                                                      ; Default Value ; Entity Name ; Section Id ;
++--------------------------------------+----------------------------------------------------------------------------+---------------+-------------+------------+
+; AUTO_MERGE_PLLS                      ; Off                                                                        ; On            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID                ; 963354559481.165774394832876                                               ; --            ; --          ; --         ;
+; CYCLONEII_OPTIMIZATION_TECHNIQUE     ; Speed                                                                      ; Balanced      ; --          ; --         ;
+; FITTER_EFFORT                        ; Standard Fit                                                               ; Auto Fit      ; --          ; --         ;
+; MISC_FILE                            ; ../DeMiSTify/Board/deca/ulpi/PLL_PHASE90.ppf                               ; --            ; --          ; --         ;
+; MISC_FILE                            ; clk.ppf                                                                    ; --            ; --          ; --         ;
+; MISC_FILE                            ; ../DeMiSTify/controller/../EightThirtyTwo/RTL/altera/debug_virtualjtag.cmp ; --            ; --          ; --         ;
+; MUX_RESTRUCTURE                      ; Off                                                                        ; Auto          ; --          ; --         ;
+; NUM_PARALLEL_PROCESSORS              ; All                                                                        ; --            ; --          ; --         ;
+; OPTIMIZATION_MODE                    ; Aggressive Performance                                                     ; Balanced      ; --          ; --         ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                                                          ; --            ; --          ; --         ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                                                          ; --            ; --          ; --         ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                                                                 ; --            ; --          ; --         ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                                                                 ; --            ; --          ; --         ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family)                                     ; --            ; deca_top    ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family)                                     ; --            ; deca_top    ; Top        ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family)                                     ; --            ; deca_top    ; Top        ;
+; PHYSICAL_SYNTHESIS_COMBO_LOGIC       ; On                                                                         ; Off           ; --          ; --         ;
+; PHYSICAL_SYNTHESIS_REGISTER_RETIMING ; On                                                                         ; Off           ; --          ; --         ;
+; PLACEMENT_EFFORT_MULTIPLIER          ; 4.0                                                                        ; 1.0           ; --          ; --         ;
+; PRE_FLOW_SCRIPT_FILE                 ; quartus_sh:../mist/build_id_verilog.tcl                                    ; --            ; --          ; --         ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                                                               ; --            ; --          ; --         ;
+; ROUTER_TIMING_OPTIMIZATION_LEVEL     ; MAXIMUM                                                                    ; Normal        ; --          ; --         ;
+; TOP_LEVEL_ENTITY                     ; deca_top                                                                   ; nes_deca      ; --          ; --         ;
+; VERILOG_MACRO                        ; DEMISTIFY_PARALLEL_AUDIO=1                                                 ; --            ; --          ; --         ;
+; VERILOG_MACRO                        ; DEMISTIFY_HDMI=1                                                           ; --            ; --          ; --         ;
+; VERILOG_MACRO                        ; DEMISTIFY_DECA=1                                                           ; --            ; --          ; --         ;
+; VERILOG_MACRO                        ; DEMISTIFY=1                                                                ; --            ; --          ; --         ;
++--------------------------------------+----------------------------------------------------------------------------+---------------+-------------+------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+
@@ -112,11 +113,11 @@ refer to the applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:04:04     ; 1.0                     ; 1335 MB             ; 00:04:41                           ;
-; Fitter                    ; 00:06:49     ; 1.1                     ; 1732 MB             ; 00:10:36                           ;
-; Assembler                 ; 00:00:08     ; 1.0                     ; 874 MB              ; 00:00:08                           ;
-; TimeQuest Timing Analyzer ; 00:00:29     ; 1.6                     ; 1061 MB             ; 00:00:47                           ;
-; Total                     ; 00:11:30     ; --                      ; --                  ; 00:16:12                           ;
+; Analysis & Synthesis      ; 00:03:57     ; 1.0                     ; 1301 MB             ; 00:04:34                           ;
+; Fitter                    ; 00:12:50     ; 1.1                     ; 1727 MB             ; 00:16:09                           ;
+; Assembler                 ; 00:00:07     ; 1.0                     ; 871 MB              ; 00:00:07                           ;
+; TimeQuest Timing Analyzer ; 00:00:32     ; 1.5                     ; 1058 MB             ; 00:00:47                           ;
+; Total                     ; 00:17:26     ; --                      ; --                  ; 00:21:37                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -125,10 +126,10 @@ refer to the applicable agreement for further details.
 +---------------------------+------------------+----------------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name        ; OS Version ; Processor type ;
 +---------------------------+------------------+----------------+------------+----------------+
-; Analysis & Synthesis      ; jordi-TM1613     ; Ubuntu 20.04.3 ; 20         ; x86_64         ;
-; Fitter                    ; jordi-TM1613     ; Ubuntu 20.04.3 ; 20         ; x86_64         ;
-; Assembler                 ; jordi-TM1613     ; Ubuntu 20.04.3 ; 20         ; x86_64         ;
-; TimeQuest Timing Analyzer ; jordi-TM1613     ; Ubuntu 20.04.3 ; 20         ; x86_64         ;
+; Analysis & Synthesis      ; jordi-TM1613     ; Ubuntu 20.04.4 ; 20         ; x86_64         ;
+; Fitter                    ; jordi-TM1613     ; Ubuntu 20.04.4 ; 20         ; x86_64         ;
+; Assembler                 ; jordi-TM1613     ; Ubuntu 20.04.4 ; 20         ; x86_64         ;
+; TimeQuest Timing Analyzer ; jordi-TM1613     ; Ubuntu 20.04.4 ; 20         ; x86_64         ;
 +---------------------------+------------------+----------------+------------+----------------+
 
 

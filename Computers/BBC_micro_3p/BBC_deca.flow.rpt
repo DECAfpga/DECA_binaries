@@ -1,5 +1,5 @@
 Flow report for BBC_deca
-Sun Jan 16 18:23:42 2022
+Wed Jul 13 18:50:01 2022
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -40,22 +40,22 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Sun Jan 16 18:23:23 2022       ;
+; Flow Status                        ; Successful - Wed Jul 13 18:49:38 2022       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; BBC_deca                                    ;
 ; Top-level Entity Name              ; deca_top                                    ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M50DAF484C6GES                            ;
 ; Timing Models                      ; Preliminary                                 ;
-; Total logic elements               ; 11,342 / 49,760 ( 23 % )                    ;
-;     Total combinational functions  ; 10,468 / 49,760 ( 21 % )                    ;
+; Total logic elements               ; 11,520 / 49,760 ( 23 % )                    ;
+;     Total combinational functions  ; 10,644 / 49,760 ( 21 % )                    ;
 ;     Dedicated logic registers      ; 5,108 / 49,760 ( 10 % )                     ;
 ; Total registers                    ; 5160                                        ;
-; Total pins                         ; 96 / 360 ( 27 % )                           ;
+; Total pins                         ; 134 / 360 ( 37 % )                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 163,840 / 1,677,312 ( 10 % )                ;
 ; Embedded Multiplier 9-bit elements ; 8 / 288 ( 3 % )                             ;
-; Total PLLs                         ; 1 / 4 ( 25 % )                              ;
+; Total PLLs                         ; 2 / 4 ( 50 % )                              ;
 ; UFM blocks                         ; 0 / 1 ( 0 % )                               ;
 ; ADC blocks                         ; 0 / 2 ( 0 % )                               ;
 +------------------------------------+---------------------------------------------+
@@ -66,7 +66,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 01/16/2022 18:19:31 ;
+; Start date & time ; 07/13/2022 18:45:43 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; BBC_deca            ;
 +-------------------+---------------------+
@@ -78,8 +78,10 @@ refer to the applicable agreement for further details.
 ; Assignment Name                     ; Value                                                               ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+---------------------------------------------------------------------+---------------+-------------+------------+
 ; AUTO_MERGE_PLLS                     ; Off                                                                 ; On            ; --          ; --         ;
-; COMPILER_SIGNATURE_ID               ; 963354559481.164235357104679                                        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 963354559481.165773074314219                                        ; --            ; --          ; --         ;
+; MISC_FILE                           ; ../DeMiSTify/Board/deca/ulpi/PLL_PHASE90.ppf                        ; --            ; --          ; --         ;
 ; MISC_FILE                           ; clockgen.ppf                                                        ; --            ; --          ; --         ;
+; MISC_FILE                           ; pll2/pll2.ppf                                                       ; --            ; --          ; --         ;
 ; MISC_FILE                           ; ../DeMiSTify/controller/../EightThirtyTwo/RTL/debug_virtualjtag.cmp ; --            ; --          ; --         ;
 ; MISC_FILE                           ; ../DeMiSTify/controller/../EightThirtyTwo/RTL/debug_fifo_altera.cmp ; --            ; --          ; --         ;
 ; NUM_PARALLEL_PROCESSORS             ; All                                                                 ; --            ; --          ; --         ;
@@ -105,11 +107,11 @@ refer to the applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:01:39     ; 1.0                     ; 1112 MB             ; 00:02:21                           ;
-; Fitter                    ; 00:01:59     ; 1.2                     ; 1510 MB             ; 00:02:47                           ;
-; Assembler                 ; 00:00:06     ; 1.0                     ; 833 MB              ; 00:00:07                           ;
-; TimeQuest Timing Analyzer ; 00:00:18     ; 1.5                     ; 943 MB              ; 00:00:26                           ;
-; Total                     ; 00:04:02     ; --                      ; --                  ; 00:05:41                           ;
+; Analysis & Synthesis      ; 00:01:39     ; 1.0                     ; 1115 MB             ; 00:02:20                           ;
+; Fitter                    ; 00:01:59     ; 1.2                     ; 1514 MB             ; 00:02:44                           ;
+; Assembler                 ; 00:00:07     ; 1.0                     ; 834 MB              ; 00:00:07                           ;
+; TimeQuest Timing Analyzer ; 00:00:22     ; 1.4                     ; 949 MB              ; 00:00:30                           ;
+; Total                     ; 00:04:07     ; --                      ; --                  ; 00:05:41                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -118,10 +120,10 @@ refer to the applicable agreement for further details.
 +---------------------------+------------------+----------------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name        ; OS Version ; Processor type ;
 +---------------------------+------------------+----------------+------------+----------------+
-; Analysis & Synthesis      ; jordi-TM1613     ; Ubuntu 20.04.3 ; 20         ; x86_64         ;
-; Fitter                    ; jordi-TM1613     ; Ubuntu 20.04.3 ; 20         ; x86_64         ;
-; Assembler                 ; jordi-TM1613     ; Ubuntu 20.04.3 ; 20         ; x86_64         ;
-; TimeQuest Timing Analyzer ; jordi-TM1613     ; Ubuntu 20.04.3 ; 20         ; x86_64         ;
+; Analysis & Synthesis      ; jordi-TM1613     ; Ubuntu 20.04.4 ; 20         ; x86_64         ;
+; Fitter                    ; jordi-TM1613     ; Ubuntu 20.04.4 ; 20         ; x86_64         ;
+; Assembler                 ; jordi-TM1613     ; Ubuntu 20.04.4 ; 20         ; x86_64         ;
+; TimeQuest Timing Analyzer ; jordi-TM1613     ; Ubuntu 20.04.4 ; 20         ; x86_64         ;
 +---------------------------+------------------+----------------+------------+----------------+
 
 
