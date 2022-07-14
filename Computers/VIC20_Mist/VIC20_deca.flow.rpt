@@ -1,5 +1,5 @@
 Flow report for VIC20_deca
-Wed Jan  5 13:22:16 2022
+Thu Jul 14 18:54:51 2022
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -40,17 +40,17 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Wed Jan  5 13:21:54 2022       ;
+; Flow Status                        ; Successful - Thu Jul 14 18:54:30 2022       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; VIC20_deca                                  ;
 ; Top-level Entity Name              ; deca_top                                    ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M50DAF484C6GES                            ;
 ; Timing Models                      ; Preliminary                                 ;
-; Total logic elements               ; 11,160 / 49,760 ( 22 % )                    ;
-;     Total combinational functions  ; 10,388 / 49,760 ( 21 % )                    ;
-;     Dedicated logic registers      ; 4,675 / 49,760 ( 9 % )                      ;
-; Total registers                    ; 4743                                        ;
+; Total logic elements               ; 11,073 / 49,760 ( 22 % )                    ;
+;     Total combinational functions  ; 10,320 / 49,760 ( 21 % )                    ;
+;     Dedicated logic registers      ; 4,604 / 49,760 ( 9 % )                      ;
+; Total registers                    ; 4672                                        ;
 ; Total pins                         ; 135 / 360 ( 38 % )                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 490,640 / 1,677,312 ( 29 % )                ;
@@ -66,7 +66,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 01/05/2022 13:18:15 ;
+; Start date & time ; 07/14/2022 18:50:43 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; VIC20_deca          ;
 +-------------------+---------------------+
@@ -78,7 +78,8 @@ refer to the applicable agreement for further details.
 ; Assignment Name                     ; Value                                                               ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+---------------------------------------------------------------------+---------------+-------------+------------+
 ; AUTO_MERGE_PLLS                     ; Off                                                                 ; On            ; --          ; --         ;
-; COMPILER_SIGNATURE_ID               ; 190135458541196.164138509519999                                     ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 963354559481.165781744319929                                        ; --            ; --          ; --         ;
+; MISC_FILE                           ; ../DeMiSTify/Board/deca/ulpi/PLL_PHASE90.ppf                        ; --            ; --          ; --         ;
 ; MISC_FILE                           ; pll27_bb.v                                                          ; --            ; --          ; --         ;
 ; MISC_FILE                           ; pll27.ppf                                                           ; --            ; --          ; --         ;
 ; MISC_FILE                           ; pll_vic20_bb.v                                                      ; --            ; --          ; --         ;
@@ -111,11 +112,11 @@ refer to the applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:01:28     ; 1.0                     ; 1136 MB             ; 00:02:01                           ;
-; Fitter                    ; 00:01:57     ; 1.2                     ; 1519 MB             ; 00:02:43                           ;
+; Analysis & Synthesis      ; 00:01:35     ; 1.0                     ; 1137 MB             ; 00:02:13                           ;
+; Fitter                    ; 00:01:58     ; 1.2                     ; 1523 MB             ; 00:02:45                           ;
 ; Assembler                 ; 00:00:06     ; 1.0                     ; 839 MB              ; 00:00:07                           ;
-; TimeQuest Timing Analyzer ; 00:00:20     ; 1.4                     ; 947 MB              ; 00:00:28                           ;
-; Total                     ; 00:03:51     ; --                      ; --                  ; 00:05:19                           ;
+; TimeQuest Timing Analyzer ; 00:00:20     ; 1.4                     ; 949 MB              ; 00:00:28                           ;
+; Total                     ; 00:03:59     ; --                      ; --                  ; 00:05:33                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -124,10 +125,10 @@ refer to the applicable agreement for further details.
 +---------------------------+------------------+----------------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name        ; OS Version ; Processor type ;
 +---------------------------+------------------+----------------+------------+----------------+
-; Analysis & Synthesis      ; jordi-TM1613     ; Ubuntu 20.04.3 ; 20         ; x86_64         ;
-; Fitter                    ; jordi-TM1613     ; Ubuntu 20.04.3 ; 20         ; x86_64         ;
-; Assembler                 ; jordi-TM1613     ; Ubuntu 20.04.3 ; 20         ; x86_64         ;
-; TimeQuest Timing Analyzer ; jordi-TM1613     ; Ubuntu 20.04.3 ; 20         ; x86_64         ;
+; Analysis & Synthesis      ; jordi-TM1613     ; Ubuntu 20.04.4 ; 20         ; x86_64         ;
+; Fitter                    ; jordi-TM1613     ; Ubuntu 20.04.4 ; 20         ; x86_64         ;
+; Assembler                 ; jordi-TM1613     ; Ubuntu 20.04.4 ; 20         ; x86_64         ;
+; TimeQuest Timing Analyzer ; jordi-TM1613     ; Ubuntu 20.04.4 ; 20         ; x86_64         ;
 +---------------------------+------------------+----------------+------------+----------------+
 
 
