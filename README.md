@@ -6,6 +6,10 @@ Each binary includes in the filename the date when was made. Older versions go i
 
 A status list of cores with audio/video/memory options is included [here](DECA_binaries.ods).
 
+![DECA_binaries](DECA_binaries.jpg)
+
+
+
 To flash the bitstreams to the FPGA follow these steps (see detailed instructions in https://github.com/DECAfpga/DECA_board/tree/main/Tutorials/Uploading-Cores):
 
 
