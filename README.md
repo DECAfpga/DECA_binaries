@@ -2,11 +2,9 @@
 
 Find the .sof and .svf bitstream binaries under their category (arcades, computer, consoles).
 
-Each binary includes in the filename the date when was made. 
+Each binary includes in the filename the date when was made. Older versions go into old folder.
 
-Older versions go into old folder.
-
-
+A status list of cores with audio/video/memory options is included [here](DECA_binaries.ods).
 
 To flash the bitstreams to the FPGA follow these steps (see detailed instructions in https://github.com/DECAfpga/DECA_board/tree/main/Tutorials/Uploading-Cores):
 

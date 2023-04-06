@@ -1,0 +1,146 @@
+Flow report for PCXT_deca
+Sun Jan 29 14:19:49 2023
+Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Sun Jan 29 14:19:36 2023       ;
+; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
+; Revision Name                      ; PCXT_deca                                   ;
+; Top-level Entity Name              ; deca_top                                    ;
+; Family                             ; MAX 10                                      ;
+; Device                             ; 10M50DAF484C6GES                            ;
+; Timing Models                      ; Preliminary                                 ;
+; Total logic elements               ; 30,429 / 49,760 ( 61 % )                    ;
+;     Total combinational functions  ; 28,694 / 49,760 ( 58 % )                    ;
+;     Dedicated logic registers      ; 7,806 / 49,760 ( 16 % )                     ;
+; Total registers                    ; 7857                                        ;
+; Total pins                         ; 154 / 360 ( 43 % )                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 1,330,282 / 1,677,312 ( 79 % )              ;
+; Embedded Multiplier 9-bit elements ; 10 / 288 ( 3 % )                            ;
+; Total PLLs                         ; 3 / 4 ( 75 % )                              ;
+; UFM blocks                         ; 0 / 1 ( 0 % )                               ;
+; ADC blocks                         ; 0 / 2 ( 0 % )                               ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 01/29/2023 14:13:28 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; PCXT_deca           ;
++-------------------+---------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                             ;
++--------------------------------------+----------------------------------------------------------------------------+---------------+-------------+------------+
+; Assignment Name                      ; Value                                                                      ; Default Value ; Entity Name ; Section Id ;
++--------------------------------------+----------------------------------------------------------------------------+---------------+-------------+------------+
+; AUTO_MERGE_PLLS                      ; Off                                                                        ; On            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID                ; 277302814092627.167499800813376                                            ; --            ; --          ; --         ;
+; CYCLONEII_OPTIMIZATION_TECHNIQUE     ; Speed                                                                      ; Balanced      ; --          ; --         ;
+; FITTER_EFFORT                        ; Standard Fit                                                               ; Auto Fit      ; --          ; --         ;
+; MISC_FILE                            ; ../DeMiSTify/Board/deca/ulpi/PLL_PHASE90.ppf                               ; --            ; --          ; --         ;
+; MISC_FILE                            ; pll.ppf                                                                    ; --            ; --          ; --         ;
+; MISC_FILE                            ; pllvideo.ppf                                                               ; --            ; --          ; --         ;
+; MISC_FILE                            ; ../DeMiSTify/controller/../EightThirtyTwo/RTL/altera/debug_virtualjtag.cmp ; --            ; --          ; --         ;
+; MUX_RESTRUCTURE                      ; Off                                                                        ; Auto          ; --          ; --         ;
+; NUM_PARALLEL_PROCESSORS              ; All                                                                        ; --            ; --          ; --         ;
+; OPTIMIZATION_MODE                    ; Aggressive Performance                                                     ; Balanced      ; --          ; --         ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                                                          ; --            ; --          ; --         ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                                                          ; --            ; --          ; --         ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                                                                 ; --            ; --          ; --         ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                                                                 ; --            ; --          ; --         ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family)                                     ; --            ; deca_top    ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family)                                     ; --            ; deca_top    ; Top        ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family)                                     ; --            ; deca_top    ; Top        ;
+; PHYSICAL_SYNTHESIS_COMBO_LOGIC       ; On                                                                         ; Off           ; --          ; --         ;
+; PHYSICAL_SYNTHESIS_REGISTER_RETIMING ; On                                                                         ; Off           ; --          ; --         ;
+; PLACEMENT_EFFORT_MULTIPLIER          ; 4.0                                                                        ; 1.0           ; --          ; --         ;
+; PRE_FLOW_SCRIPT_FILE                 ; quartus_sh:../build_id.tcl                                                 ; --            ; --          ; --         ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                                                               ; --            ; --          ; --         ;
+; ROUTER_TIMING_OPTIMIZATION_LEVEL     ; MAXIMUM                                                                    ; Normal        ; --          ; --         ;
+; TOP_LEVEL_ENTITY                     ; deca_top                                                                   ; PCXT_deca     ; --          ; --         ;
+; VERILOG_MACRO                        ; DEMISTIFY_PARALLEL_AUDIO=1                                                 ; --            ; --          ; --         ;
+; VERILOG_MACRO                        ; DEMISTIFY_HDMI=1                                                           ; --            ; --          ; --         ;
+; VERILOG_MACRO                        ; DEMISTIFY_DECA=1                                                           ; --            ; --          ; --         ;
+; VERILOG_MACRO                        ; DEMISTIFY=1                                                                ; --            ; --          ; --         ;
++--------------------------------------+----------------------------------------------------------------------------+---------------+-------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:02:51     ; 1.0                     ; 1478 MB             ; 00:03:12                           ;
+; Fitter                    ; 00:03:03     ; 1.8                     ; 2714 MB             ; 00:09:37                           ;
+; Assembler                 ; 00:00:04     ; 1.0                     ; 905 MB              ; 00:00:04                           ;
+; TimeQuest Timing Analyzer ; 00:00:12     ; 3.5                     ; 1251 MB             ; 00:00:39                           ;
+; Total                     ; 00:06:10     ; --                      ; --                  ; 00:13:32                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++---------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                             ;
++---------------------------+------------------+----------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name        ; OS Version ; Processor type ;
++---------------------------+------------------+----------------+------------+----------------+
+; Analysis & Synthesis      ; jordi-5600G      ; Ubuntu 22.04.1 ; 22         ; x86_64         ;
+; Fitter                    ; jordi-5600G      ; Ubuntu 22.04.1 ; 22         ; x86_64         ;
+; Assembler                 ; jordi-5600G      ; Ubuntu 22.04.1 ; 22         ; x86_64         ;
+; TimeQuest Timing Analyzer ; jordi-5600G      ; Ubuntu 22.04.1 ; 22         ; x86_64         ;
++---------------------------+------------------+----------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off PCXT_deca -c PCXT_deca
+quartus_fit --read_settings_files=off --write_settings_files=off PCXT_deca -c PCXT_deca
+quartus_asm --read_settings_files=off --write_settings_files=off PCXT_deca -c PCXT_deca
+quartus_sta PCXT_deca -c PCXT_deca
+
+
+
