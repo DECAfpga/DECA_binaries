@@ -6,7 +6,7 @@ Each binary includes in the filename the date when was made. Older versions go i
 
 A status list of cores with audio/video/memory options is included [here](DECA_binaries.ods).
 
-![DECA_binaries](DECA_binaries.jpg)
+![DECA_binaries](DECA_binaries.png)
 
 
 
