@@ -14,6 +14,10 @@ To flash the bitstreams to the FPGA follow these steps (see detailed instruction
 
 
 
+NOTE about SVF files: all _nodsm.svf files have been edited with [MAX10 SVF Cleaner](https://github.com/opengateware-labs/tools-max10_svf_cleaner) to remove the DSM clear command. This way if you have a bitstream loaded into FPGA flash you won't loose it after flashing any _nodsm.svf file.
+
+
+
 ## Flash bitstream to FGPA with Quartus
 
 Update with your own PATHs to Quartus and sof filename:
