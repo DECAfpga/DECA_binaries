@@ -1,5 +1,5 @@
 Flow report for apple2efpga_deca
-Wed Jul 13 19:55:58 2022
+Thu Jul 13 18:10:52 2023
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -40,20 +40,20 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Wed Jul 13 19:55:39 2022       ;
+; Flow Status                        ; Successful - Thu Jul 13 18:10:47 2023       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; apple2efpga_deca                            ;
 ; Top-level Entity Name              ; deca_top                                    ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M50DAF484C6GES                            ;
 ; Timing Models                      ; Preliminary                                 ;
-; Total logic elements               ; 8,540 / 49,760 ( 17 % )                     ;
-;     Total combinational functions  ; 7,962 / 49,760 ( 16 % )                     ;
-;     Dedicated logic registers      ; 3,470 / 49,760 ( 7 % )                      ;
-; Total registers                    ; 3534                                        ;
+; Total logic elements               ; 8,943 / 49,760 ( 18 % )                     ;
+;     Total combinational functions  ; 8,344 / 49,760 ( 17 % )                     ;
+;     Dedicated logic registers      ; 3,673 / 49,760 ( 7 % )                      ;
+; Total registers                    ; 3737                                        ;
 ; Total pins                         ; 135 / 360 ( 38 % )                          ;
 ; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 379,904 / 1,677,312 ( 23 % )                ;
+; Total memory bits                  ; 396,288 / 1,677,312 ( 24 % )                ;
 ; Embedded Multiplier 9-bit elements ; 8 / 288 ( 3 % )                             ;
 ; Total PLLs                         ; 1 / 4 ( 25 % )                              ;
 ; UFM blocks                         ; 0 / 1 ( 0 % )                               ;
@@ -66,7 +66,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 07/13/2022 19:52:27 ;
+; Start date & time ; 07/13/2023 18:09:34 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; apple2efpga_deca    ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 ; Assignment Name                     ; Value                                                                      ; Default Value    ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------------------------------------------+------------------+-------------+------------+
 ; AUTO_MERGE_PLLS                     ; Off                                                                        ; On               ; --          ; --         ;
-; COMPILER_SIGNATURE_ID               ; 963354559481.165773474719277                                               ; --               ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 277302814092627.168926457424834                                            ; --               ; --          ; --         ;
 ; MISC_FILE                           ; ../DeMiSTify/Board/deca/ulpi/PLL_PHASE90.ppf                               ; --               ; --          ; --         ;
 ; MISC_FILE                           ; mist_clk.ppf                                                               ; --               ; --          ; --         ;
 ; MISC_FILE                           ; ../DeMiSTify/controller/../EightThirtyTwo/RTL/altera/debug_virtualjtag.cmp ; --               ; --          ; --         ;
@@ -104,11 +104,11 @@ refer to the applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:01:22     ; 1.0                     ; 1080 MB             ; 00:01:59                           ;
-; Fitter                    ; 00:01:36     ; 1.1                     ; 1477 MB             ; 00:02:11                           ;
-; Assembler                 ; 00:00:06     ; 1.0                     ; 829 MB              ; 00:00:06                           ;
-; TimeQuest Timing Analyzer ; 00:00:17     ; 1.4                     ; 923 MB              ; 00:00:24                           ;
-; Total                     ; 00:03:21     ; --                      ; --                  ; 00:04:40                           ;
+; Analysis & Synthesis      ; 00:00:35     ; 1.0                     ; 1163 MB             ; 00:00:51                           ;
+; Fitter                    ; 00:00:31     ; 1.8                     ; 2345 MB             ; 00:01:21                           ;
+; Assembler                 ; 00:00:03     ; 1.0                     ; 839 MB              ; 00:00:03                           ;
+; TimeQuest Timing Analyzer ; 00:00:04     ; 3.6                     ; 1062 MB             ; 00:00:13                           ;
+; Total                     ; 00:01:13     ; --                      ; --                  ; 00:02:28                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -117,10 +117,10 @@ refer to the applicable agreement for further details.
 +---------------------------+------------------+----------------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name        ; OS Version ; Processor type ;
 +---------------------------+------------------+----------------+------------+----------------+
-; Analysis & Synthesis      ; jordi-TM1613     ; Ubuntu 20.04.4 ; 20         ; x86_64         ;
-; Fitter                    ; jordi-TM1613     ; Ubuntu 20.04.4 ; 20         ; x86_64         ;
-; Assembler                 ; jordi-TM1613     ; Ubuntu 20.04.4 ; 20         ; x86_64         ;
-; TimeQuest Timing Analyzer ; jordi-TM1613     ; Ubuntu 20.04.4 ; 20         ; x86_64         ;
+; Analysis & Synthesis      ; jordi-5600G      ; Ubuntu 22.04.2 ; 22         ; x86_64         ;
+; Fitter                    ; jordi-5600G      ; Ubuntu 22.04.2 ; 22         ; x86_64         ;
+; Assembler                 ; jordi-5600G      ; Ubuntu 22.04.2 ; 22         ; x86_64         ;
+; TimeQuest Timing Analyzer ; jordi-5600G      ; Ubuntu 22.04.2 ; 22         ; x86_64         ;
 +---------------------------+------------------+----------------+------------+----------------+
 
 
